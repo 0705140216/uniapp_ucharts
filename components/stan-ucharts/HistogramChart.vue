@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import uCharts from '@/plugins/u-charts/u-charts.js';//可以优化放全局 uCharts ==>使用全局
+import uCharts from '@/plugins/stan-ucharts/u-charts/u-charts.js'; //可以优化放全局 uCharts ==>使用全局
 const histogramuCharts = {},
 	optionAs = {};
 export default {

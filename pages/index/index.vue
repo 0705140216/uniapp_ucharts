@@ -102,11 +102,11 @@
 </template>
 
 <script>
-import HistogramChart from '@/components/HistogramChart.vue';
-import ArcbarChart from '@/components/ArcbarChart.vue';
-import LineChart from '@/components/LineChart.vue';
-import PieChart from '@/components/PieChart.vue';
-import RingChart from '@/components/RingChart.vue';
+import HistogramChart from '@/components/stan-ucharts/HistogramChart.vue';
+import ArcbarChart from '@/components/stan-ucharts/ArcbarChart.vue';
+import LineChart from '@/components/stan-ucharts/LineChart.vue';
+import PieChart from '@/components/stan-ucharts/PieChart.vue';
+import RingChart from '@/components/stan-ucharts/RingChart.vue';
 export default {
 	name: 'Index',
 	components: {
