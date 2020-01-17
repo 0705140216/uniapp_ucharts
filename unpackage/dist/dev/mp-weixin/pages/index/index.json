@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "ucharts",
+  "usingComponents": {
+    "histogram-chart": "/components/HistogramChart",
+    "arcbar-chart": "/components/ArcbarChart",
+    "line-chart": "/components/LineChart",
+    "pie-chart": "/components/PieChart",
+    "ring-chart": "/components/RingChart"
+  }
+}
