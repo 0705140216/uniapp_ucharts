@@ -1,1 +1,0 @@
-<view class="ring_chart"><canvas style="{{'width:'+(cWidth+'px')+';'+('height:'+(cHeight+'px')+';')}}" canvasId="{{canvasId}}" id="canvasId" data-event-opts="{{[['touchstart',[['touchstart',['$event']]]]]}}" bindtouchstart="__e"></canvas><slot></slot></view>
