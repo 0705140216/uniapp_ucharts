@@ -177,7 +177,7 @@ export default {
 				}
 			}
 		};
-		optionAs[this.canvasId] = Object.assign(defaultOption, this.basicAs, this.xAxisAS, this.yAxisAS, this.legendAs, this.extraAs);
+		optionAs[this.canvasId] = Object.assign(defaultOption, this.basicAs, this.xAxisAs, this.yAxisAs, this.legendAs, this.extraAs);
 		lineCharts[this.canvasId] = new uCharts(optionAs[this.canvasId]);
 	},
 	methods: {
